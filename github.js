@@ -1,5 +1,6 @@
 class GitHub {
   constructor() {
+    // leaving this tokens visible is not a problem for this app
     this.client_id = "d6055e8e1dc6b5400c7f";
     this.client_secret = "b371a216e66110bdae42392e27e9474d34735c96";
     this.repos_count = 5;
