@@ -15,7 +15,7 @@ class GitHub {
     );
 
     const reposRepsonse = await fetch(
-      `http://api.github.com/users/${user}/repos?per_page=${
+      `https://api.github.com/users/${user}/repos?per_page=${
         this.repos_count
       }&sort=${this.repos_sort}&client_id=${this.client_id}&client_secret=${
         this.client_secret
